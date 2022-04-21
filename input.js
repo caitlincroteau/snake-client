@@ -19,7 +19,7 @@ const setupInput = function(conn) {
 
   setInterval(() => {
     if (lastCommand) connection.write(lastCommand);
-  }, 500);
+  }, 300);
 
   return stdin;
 };
@@ -52,57 +52,6 @@ const handleUserInput = function(key) {
   }
 };
 
-
-
-// const handleUserInput = function(key) {
-//   if (key === '\u0003') {
-//     process.exit();
-//   }
-
-//   if (key === 'w') {
-//     lastCommand = 'Move: up';
-//   }
-  
-//   if (key === 'a') {
-//     lastCommand = "Move: left";
-//   }
-
-//   if (key === 's') {
-//     lastCommand = 'Move: down';
-//   }
-
-//   if (key === 'd') {
-//     lastCommand = 'Move: right';
-//   }
-
-//   if (key === 'h') {
-//     connection.write('Say: Hello');
-//   }
-
-//   if (key === 'b') {
-//     connection.write('Say: Goodbye');
-//   }
-
-//   if (key === 'i') {
-//     connection.write('Say: I win!');
-//   }
-
-//   if (key === 'u') {
-//     connection.write('Say: How are you!');
-//   }
-
-//   if (key === 'o') {
-//     connection.write('Say: I am ok!');
-//   }
-
-//   if (key === '1') {
-//     connection.write('Say: 100%!!!!');
-//   }
-
-//   if (key === '?') {
-//     connection.write('Say: WHAT???');
-//   }
-// };
 
 module.exports = {
   setupInput

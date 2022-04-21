@@ -23,7 +23,6 @@ const MESSAGES = {
   "*": "hssssss..."
 };
 
-
 module.exports = {
   IP,
   PORT,
