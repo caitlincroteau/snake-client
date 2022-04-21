@@ -62,9 +62,7 @@ const handleUserInput = function(key) {
   if (key === '?') {
     connection.write('Say: WHAT???');
   }
-  
 };
-
 
 module.exports = {
   setupInput
