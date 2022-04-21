@@ -1,11 +1,12 @@
 
 // setup interface to handle user input from stdin
-const { EXIT_KEY, MOVE_UP_KEY, MOVE_LEFT_KEY, MOVE_DOWN_KEY, MOVE_RIGHT_KEY, EXIT, UP, 
+
+const { EXIT_KEY, MOVE_UP_KEY, MOVE_LEFT_KEY, MOVE_DOWN_KEY, MOVE_RIGHT_KEY, EXIT, UP,
   LEFT, DOWN, RIGHT, MESSAGES } = require('./constants');
 
 let connection;
 let lastCommand = false;
-let messages = MESSAGES;
+
 
 const setupInput = function(conn) {
   connection = conn;
@@ -24,8 +25,10 @@ const setupInput = function(conn) {
 };
 
 const handleUserInput = function(key) {
+  const messages = MESSAGES;
+
   if (key === EXIT_KEY) {
-    EXIT;
+    EXIT();
   }
 
   if (key === MOVE_UP_KEY) {
@@ -45,7 +48,7 @@ const handleUserInput = function(key) {
   }
 
   if (key in messages) {
-    connection.write(messages[newkey])
+    connection.write("Say: " + messages[key]);
   }
 };
 

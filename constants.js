@@ -6,7 +6,7 @@ const MOVE_UP_KEY = "w";
 const MOVE_LEFT_KEY = "a";
 const MOVE_DOWN_KEY = "s";
 const MOVE_RIGHT_KEY = "d";
-const EXIT = process.exit();
+const EXIT = () => process.exit();
 const UP = "Move: up";
 const LEFT = "Move: left";
 const DOWN = "Move: down";
