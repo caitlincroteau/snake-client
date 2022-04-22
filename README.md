@@ -21,10 +21,10 @@ The server side, Snek, was created by [Tania Rascia](https://github.com/taniaras
 
 Your snake will be stationary at the start of the game. Once you give you snake a movement command, it will continue to move forward until you tell it to change direction. You can move your snake with the following keys:
 
--w: move up
--a: move left
--s: move down
--d: move right
+- w: move up
+- a: move left
+- s: move down
+- d: move right
 
 ## Message Commands
 
@@ -32,14 +32,14 @@ Your snake can speak! (Sort of...)
 
 Use the following key commands to make your snake speak:
 
--h: "Hello.."
--g: "Goodbye"
--i: "I win!"
--u: "How are you?"
--o: "I am ok!"
--1: "100%!!!!"
--?: "WHAT???"
--*: "hssssss..."
+- h: "Hello.."
+- g: "Goodbye"
+- i: "I win!"
+- u: "How are you?"
+- o: "I am ok!"
+- 1: "100%!!!!"
+- ?: "WHAT???"
+- *: "hssssss..."
 
 ## Game Over
 
