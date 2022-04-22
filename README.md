@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![A Game of Snake](./snake.gif)
+![A Game of Snake](./snake.gif =x250)
 !["screenshot description"](#)
 
 
