@@ -4,40 +4,42 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
-Before you can run this client, you will need to be running the server side which you can download and install from here. 
+Before you can run this client, you will need to be running the server side which you can download and install from [Snek](https://github.com/taniarascia/snek).
+
+The server side, Snek, was created by [Tania Rascia](https://github.com/taniarascia).
 
 ## Final Product
 
-![A Game of Snake](./snake.gif)
+![A Solo Game of Snake](./snake.gif)
 
 ## Getting Started
 
-- Follow steps inside the snek server repo to run the server side
-- Run the development snake client using the `node play.js` command.
+- Follow steps inside the Snek server repo to run the server side
+- Run the development Snake client using the `node play.js` command.
 
 ## Movement Commands
 
 Your snake will be stationary at the start of the game. Once you give you snake a movement command, it will continue to move forward until you tell it to change direction. You can move your snake with the following keys:
 
-w: move up
-a: move left
-s: move down
-d: move right
+-w: move up
+-a: move left
+-s: move down
+-d: move right
 
 ## Message Commands
 
-Your snake can speak! /(Sort of!/)
+Your snake can speak! (Sort of...)
 
 Use the following key commands to make your snake speak:
 
-h: "Hello.."
-g: "Goodbye"
-i: "I win!"
-u: "How are you?"
-o: "I am ok!"
-1: "100%!!!!"
-?: "WHAT???"
-*: "hssssss..."
+-h: "Hello.."
+-g: "Goodbye"
+-i: "I win!"
+-u: "How are you?"
+-o: "I am ok!"
+-1: "100%!!!!"
+-?: "WHAT???"
+-*: "hssssss..."
 
 ## Game Over
 
