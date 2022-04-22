@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![./snake.gif](#)
+![A Game of Snake](./snake.gif)
 !["screenshot description"](#)
 
 
@@ -16,3 +16,14 @@ Before you can run this client, you will need to be running the server side whic
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+
+## Movement Commands
+
+const MOVE_UP_KEY = "w";
+const MOVE_LEFT_KEY = "a";
+const MOVE_DOWN_KEY = "s";
+const MOVE_RIGHT_KEY = "d";
+
+## Message Commans
+
+You can 
