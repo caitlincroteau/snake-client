@@ -8,9 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![A Game of Snake](./snake.gif =x250)
-!["screenshot description"](#)
-
+![A Game of Snake](./snake.gif)
 
 ## Getting Started
 
@@ -19,11 +17,28 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Movement Commands
 
-const MOVE_UP_KEY = "w";
-const MOVE_LEFT_KEY = "a";
-const MOVE_DOWN_KEY = "s";
-const MOVE_RIGHT_KEY = "d";
+Your snake will be stationary at the start of the game. Once you give you snake a movement command, it will continue to move forward until you tell it to change direction. You can move your snake with the following keys:
 
-## Message Commans
+w: move up
+a: move left
+s: move down
+d: move right
 
-You can 
+## Message Commands
+
+Your snake can speak! /(Sort of!/)
+
+Use the following key commands to make your snake speak:
+
+h: "Hello.."
+g: "Goodbye"
+i: "I win!"
+u: "How are you?"
+o: "I am ok!"
+1: "100%!!!!"
+?: "WHAT???"
+*: "hssssss..."
+
+## Game Over
+
+Use control+C to exit the game.
